@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Sprites>
+  <!-- UI -->
+  <Sprite ID="PlacementGrid" Texture="PlacementGrid" Offset="0, 0" Size="16, 16"/>
+  <Sprite ID="TestIcon" Texture="TestIcon" Offset="0, 0" Size="32, 32"/>
+  <Sprite ID="NewIcon" Texture="NewIcon" Offset="0, 0" Size="32, 32"/>
+  <Sprite ID="LoadIcon" Texture="LoadIcon" Offset="0, 0" Size="32, 32"/>
+  <Sprite ID="SaveIcon" Texture="SaveIcon" Offset="0, 0" Size="32, 32"/>
+  
+  <!-- MODULES -->
+  <Sprite ID="Armor" Texture="Armor" Offset="0, 0" Size="16, 16"/>
+  <Sprite ID="ArmorAngled" Texture="ArmorAngled" Offset="0, 0" Size="16, 16"/>
+  <Sprite ID="ArmorRounded" Texture="ArmorRounded" Offset="0, 0" Size="16, 16"/>
+  <Sprite ID="Capacitor" Texture="Capacitor" Offset="0, 0" Size="16, 16"/>
+  <Sprite ID="CargoBay" Texture="CargoBay" Offset="0, 0" Size="16, 16"/>
+  <Sprite ID="EngineeringBay" Texture="EngineeringBay" Offset="0, 0" Size="16, 16"/>
+  <Sprite ID="Greenhouse" Texture="Greenhouse" Offset="0, 0" Size="16, 16"/>
+  <Sprite ID="ReactorMedium" Texture="ReactorMedium" Offset="0, 0" Size="32, 32"/>
+  <Sprite ID="ReactorSmall" Texture="ReactorSmall" Offset="0, 0" Size="16, 16"/>
+  <Sprite ID="ShieldMedium" Texture="ShieldMedium" Offset="0, 0" Size="32, 32"/>
+  <Sprite ID="ShieldSmall" Texture="ShieldSmall" Offset="0, 0" Size="16, 16"/>
+  <Sprite ID="ThrusterSmall" Texture="ThrusterSmall" Offset="0, 0" Size="16, 16"/>
+  <Sprite ID="ThrusterSmallAngled" Texture="ThrusterSmallAngled" Offset="0, 0" Size="16, 16"/>
+  <Sprite ID="TurretMount" Texture="TurretMount" Offset="0, 0" Size="16, 16"/>
+  
+  <!-- TURRETS -->
+  <Sprite ID="AutocannonTurret" Texture="AutocannonTurret" Offset="0, 0" Size="16, 16"/>
+  <Sprite ID="LaserCannonTurret" Texture="LaserCannonTurret" Offset="0, 0" Size="16, 16"/>
+  
+  <!-- Template: 
+  <Sprite ID="" Texture="" Offset="0, 0" Size="16, 16"/>
+  -->
+</Sprites>

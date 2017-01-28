@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<WorkTypes>
+  <WorkType ID="Labor" Title="LaborTitle" Description="LaborDesc"/> <!-- Sprite: Hammer, White -->
+  <WorkType ID="Engineering" Title="EngineeringTitle" Description="EngineeringDesc"/> <!-- Sprite: Vernier caliper, Orange -->
+  <WorkType ID="Biology" Title="BiologyTitle" Description="BiologyDesc"/> <!-- Sprite: DNA strand, Green -->
+  <WorkType ID="Physics" Title="PhysicsTitle" Description="PhysicsDesc"/> <!-- Sprite: Atom model, Blue -->
+</WorkTypes>

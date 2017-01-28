@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Projectiles>
+  <Projectile ID="Autocannon" Damage="0" Mass="1" HP="10" Flags="SP"/>
+  <Projectile ID="LaserPulse" Damage="20" Mass="0" HP="-1" Flags=""/>
+</Projectiles>

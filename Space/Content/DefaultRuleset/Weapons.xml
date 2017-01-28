@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Weapons>
+  <Weapon ID="Autocannon" Cooldown="0.1">
+    <Projectile ID="Autocannon" Speed="1.0" Precision="0.01"/>
+    <Reload Time="5">
+      <ResourceUsage ID="Ammunition" Amount="1"/>
+    </Reload>
+  </Weapon>
+  <Weapon ID="LaserCannon" Cooldown="1">
+    <Projectile ID="LaserPulse" Speed="100.0" Precision="0.001"/>
+    <Reload Time="1">
+      <ResourceUsage ID="Energy" Amount="100"/>
+    </Reload>
+  </Weapon>
+</Weapons>

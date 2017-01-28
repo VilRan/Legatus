@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Resources>
+  <Resource ID="Energy" Title="Energy" Sprite="Energy" Mass="0" Types=""/>
+  <Resource ID="Fuel" Title="Fuel" Sprite="Fuel" Mass="0.1" Types=""/>
+  <Resource ID="Metal" Title="Metal" Sprite="Metal" Mass="10" Types=""/>
+  <Resource ID="Ammunition" Title="Ammunition" Sprite="Ammunition" Mass="10" Types=""/>
+  <Resource ID="Food" Title="Food" Sprite="Food" Mass="0" Types=""/>
+  <!--
+  <Resource ID="" Title="" Volume="" Types=""/>
+  
+  ID: Use this to refer to this resource in other data files. Must be unique among resource types.
+  Title: The title of the resource as shown to the player.
+  Density: Mass of the resource per one unit.
+  Types: Types the resource fits into. Separate by commas.
+  -->
+</Resources>

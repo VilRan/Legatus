@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Buildings>
+  <Building ID="MetalMine">
+    <ResourceProduction>
+      <Output ID="Metal" Amount="150"/>
+      <WorkInput ID="Labor" Amount="100"/>
+      <WorkInput ID="Engineering" Amount="10"/>
+    </ResourceProduction>
+    <WorkCost ID="Labor" Amount="1000"/>
+    <WorkCost ID="Engineering" Amount="100"/>
+  </Building>
+  <Building ID="PowerPlant">
+    <ResourceProduction>
+      <Output ID="Energy" Amount="1600"/>
+      <WorkInput ID="Labor" Amount="40"/>
+      <WorkInput ID="Engineering" Amount="20"/>
+      <WorkInput ID="Physics" Amount="20"/>
+    </ResourceProduction>
+    <ResourceCost ID="Metal" Amount="1000"/>
+    <WorkCost ID="Labor" Amount="1000"/>
+    <WorkCost ID="Engineering" Amount="100"/>
+  </Building>
+</Buildings>

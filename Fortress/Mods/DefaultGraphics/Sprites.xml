@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Sprites>
+  
+  <Sprite ID="Grass">
+    <Variants>
+      <Variant
+        Texture="Grass"
+        X="0"
+        Y="0"
+        Width="64"
+        Height="64"
+        />
+      <Variant
+        Texture="Grass"
+        X="64"
+        Y="0"
+        Width="64"
+        Height="64"
+        />
+      <Variant
+        Texture="Grass"
+        X="0"
+        Y="64"
+        Width="64"
+        Height="64"
+        />
+      <Variant
+        Texture="Grass"
+        X="64"
+        Y="64"
+        Width="64"
+        Height="64"
+        />
+    </Variants>
+  </Sprite>
+  
+  <Sprite ID="Dirt">
+    <Variants>
+      <Variant
+        Texture="Dirt"
+        X="0"
+        Y="0"
+        Width="64"
+        Height="64"
+        />
+      <Variant
+        Texture="Dirt"
+        X="64"
+        Y="0"
+        Width="64"
+        Height="64"
+        />
+      <Variant
+        Texture="Dirt"
+        X="0"
+        Y="64"
+        Width="64"
+        Height="64"
+        />
+      <Variant
+        Texture="Dirt"
+        X="64"
+        Y="64"
+        Width="64"
+        Height="64"
+        />
+    </Variants>
+  </Sprite>
+  
+  <Sprite ID="Rock">
+    <Variants>
+      <Variant
+        Texture="Rock"
+        X="0"
+        Y="0"
+        Width="64"
+        Height="64"
+        />
+      <Variant
+        Texture="Rock"
+        X="64"
+        Y="0"
+        Width="64"
+        Height="64"
+        />
+      <Variant
+        Texture="Rock"
+        X="0"
+        Y="64"
+        Width="64"
+        Height="64"
+        />
+      <Variant
+        Texture="Rock"
+        X="64"
+        Y="64"
+        Width="64"
+        Height="64"
+        />
+    </Variants>
+  </Sprite>
+  
+  <Sprite ID="Water">
+    <Variants>
+      <Variant
+        Texture="Water"
+        X="0"
+        Y="0"
+        Width="64"
+        Height="64"
+        />
+      <Variant
+        Texture="Water"
+        X="64"
+        Y="0"
+        Width="64"
+        Height="64"
+        />
+      <Variant
+        Texture="Water"
+        X="0"
+        Y="64"
+        Width="64"
+        Height="64"
+        />
+      <Variant
+        Texture="Water"
+        X="64"
+        Y="64"
+        Width="64"
+        Height="64"
+        />
+    </Variants>
+  </Sprite>
+  
+</Sprites>

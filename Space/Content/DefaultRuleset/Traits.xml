@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Traits>
+  <Trait ID="Engineer" Title="EngineerTitle" Desc="EngineerDesc">
+    <WorkModifier ID="Engineering" Multiplier="1.5"/>
+  </Trait>
+  <Trait ID="Researcher" Title="ResearcherTitle" Desc="ResearcherDesc">
+    <WorkModifier ID="Biology" Multiplier="1.5"/>
+  </Trait>
+  <Trait ID="InfantryTactician" Title="InfantryTacticianTitle" Desc="InfantryTacticianDesc">
+    <CrewAttackModifier Multiplier="1.5"/>
+  </Trait>
+  <Trait ID="CharismaticLeader" Title="CharismaticLeaderTitle" Desc="CharismaticLeaderDesc">
+    <CrewWageModifier Multiplier="0.8"/>
+  </Trait>
+</Traits>

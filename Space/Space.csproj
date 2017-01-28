@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E5101303-B1B9-4C98-B05D-DD2B544BC264}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Space</RootNamespace>
+    <AssemblyName>Space</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MonoGamePlatform>Windows</MonoGamePlatform>
+    <MonoGameContentBuilderExe>
+    </MonoGameContentBuilderExe>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Windows\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Windows\Release\</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Battle\BattleCamera.cs" />
+    <Compile Include="Battle\BattleMap.cs" />
+    <Compile Include="Battle\BattleModule.cs" />
+    <Compile Include="Battle\BattleShip.cs" />
+    <Compile Include="Battle\BattleTurret.cs" />
+    <Compile Include="Data\CrewTypeData.cs" />
+    <Compile Include="Data\ModuleComponentData.cs" />
+    <Compile Include="Data\ProjectileLaunchData.cs" />
+    <Compile Include="Data\Saving\ModuleSaveData.cs" />
+    <Compile Include="Data\Saving\ShipSaveData.cs" />
+    <Compile Include="Data\SpriteData.cs" />
+    <Compile Include="Data\TraitData.cs" />
+    <Compile Include="Data\WorkAmount.cs" />
+    <Compile Include="Data\WorkTypeData.cs" />
+    <Compile Include="Data\WorkModifier.cs" />
+    <Compile Include="Data\GameData.cs" />
+    <Compile Include="Data\GameDataManager.cs" />
+    <Compile Include="Data\ModuleData.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Data\ProjectileData.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Data\ResourceData.cs" />
+    <Compile Include="Data\ResourceAmount.cs" />
+    <Compile Include="ShipDesigner\ShipDesignerGameState.cs" />
+    <Compile Include="ShipDesigner\ShipDesignerMap.cs" />
+    <Compile Include="ShipDesigner\ShipDesignerModuleView.cs" />
+    <Compile Include="ShipDesigner\ShipDesignerMapView.cs" />
+    <Compile Include="SpaceGame.cs" />
+    <Compile Include="Data\WeaponData.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>$(MSBuildProgramFiles32)\MonoGame\v3.0\Assemblies\Windows\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\DefaultGraphics\Settings.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\DefaultGraphics\Modules\Armor.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\DefaultGraphics\Modules\ArmorAngled.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\DefaultGraphics\Modules\ArmorRounded.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\DefaultGraphics\Modules\Capacitor.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\DefaultGraphics\Modules\CargoBay.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\DefaultGraphics\Modules\EngineeringBay.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\DefaultGraphics\Modules\Greenhouse.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\DefaultGraphics\Modules\ReactorMedium.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\DefaultGraphics\Modules\ReactorSmall.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\DefaultGraphics\Modules\ShieldMedium.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\DefaultGraphics\Modules\ShieldSmall.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\DefaultGraphics\Modules\ThrusterSmall.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\DefaultGraphics\Modules\ThrusterSmallAngled.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\DefaultGraphics\Modules\TurretMount.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\DefaultGraphics\Sprites.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\DefaultGraphics\Textures.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\DefaultGraphics\Turrets\AutocannonTurret.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\DefaultGraphics\Turrets\LaserCannonTurret.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\DefaultGraphics\UI\LoadIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\DefaultGraphics\UI\PlacementGrid.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\DefaultGraphics\UI\SaveIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\DefaultGraphics\UI\NewIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\DefaultGraphics\UI\TestIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\DefaultRuleset\Buildings.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\DefaultRuleset\CrewTypes.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\DefaultRuleset\Localization\English.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\DefaultRuleset\Modules.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\DefaultRuleset\PlanetTypes.xml" />
+    <Content Include="Content\DefaultRuleset\Projectiles.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\DefaultRuleset\Resources.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\DefaultRuleset\PlanetModifiers.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\DefaultRuleset\Traits.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\DefaultRuleset\Weapons.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\DefaultRuleset\WorkTypes.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icon.ico" />
+    <Content Include="Settings.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="Content\Content.mgcb" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Legatus\Legatus.csproj">
+      <Project>{7c7cfbf2-3fd1-4deb-a864-be0053bd290c}</Project>
+      <Name>Legatus</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\DefaultGraphics\Projectiles\XCF\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Content\DefaultGraphics\Modules\XCF\Armor.xcf" />
+    <None Include="Content\DefaultGraphics\Modules\XCF\ArmorAngled.xcf" />
+    <None Include="Content\DefaultGraphics\Modules\XCF\ArmorRounded.xcf" />
+    <None Include="Content\DefaultGraphics\Modules\XCF\CargoBay.xcf" />
+    <None Include="Content\DefaultGraphics\Modules\XCF\EngineeringBay.xcf" />
+    <None Include="Content\DefaultGraphics\Modules\XCF\Greenhouse.xcf" />
+    <None Include="Content\DefaultGraphics\Modules\XCF\Capacitor.xcf" />
+    <None Include="Content\DefaultGraphics\Modules\XCF\ReactorMedium.xcf" />
+    <None Include="Content\DefaultGraphics\Modules\XCF\ReactorSmall.xcf" />
+    <None Include="Content\DefaultGraphics\Modules\XCF\ShieldMedium.xcf" />
+    <None Include="Content\DefaultGraphics\Modules\XCF\ShieldSmall.xcf" />
+    <None Include="Content\DefaultGraphics\Modules\XCF\ThrusterSmall.xcf" />
+    <None Include="Content\DefaultGraphics\Modules\XCF\ThrusterSmallAngled.xcf" />
+    <None Include="Content\DefaultGraphics\Modules\XCF\TurretMount.xcf" />
+    <None Include="Content\DefaultGraphics\Turrets\XCF\AutocannonTurret.xcf" />
+    <None Include="Content\DefaultGraphics\Turrets\XCF\LaserCannonTurret.xcf" />
+    <None Include="Content\DefaultGraphics\UI\XCF\LoadIcon.xcf" />
+    <None Include="Content\DefaultGraphics\UI\XCF\NewIcon.xcf" />
+    <None Include="Content\DefaultGraphics\UI\XCF\PlacementGrid.xcf" />
+    <None Include="Content\DefaultGraphics\UI\XCF\SaveIcon.xcf" />
+    <None Include="Content\DefaultGraphics\UI\XCF\TestIcon.xcf" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

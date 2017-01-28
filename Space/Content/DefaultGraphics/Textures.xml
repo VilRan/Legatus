@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Textures>
+  <!-- UI -->
+  <Texture ID="PlacementGrid" File="DefaultGraphics/UI/PlacementGrid.png"/>
+  <Texture ID="TestIcon" File="DefaultGraphics/UI/TestIcon.png"/>
+  <Texture ID="NewIcon" File="DefaultGraphics/UI/NewIcon.png"/>
+  <Texture ID="LoadIcon" File="DefaultGraphics/UI/LoadIcon.png"/>
+  <Texture ID="SaveIcon" File="DefaultGraphics/UI/SaveIcon.png"/>
+  
+  <!-- MODULES -->
+  <Texture ID="Armor" File="DefaultGraphics/Modules/Armor.png"/>
+  <Texture ID="ArmorAngled" File="DefaultGraphics/Modules/ArmorAngled.png"/>
+  <Texture ID="ArmorRounded" File="DefaultGraphics/Modules/ArmorRounded.png"/>
+  <Texture ID="Capacitor" File="DefaultGraphics/Modules/Capacitor.png"/>
+  <Texture ID="CargoBay" File="DefaultGraphics/Modules/CargoBay.png"/>
+  <Texture ID="EngineeringBay" File="DefaultGraphics/Modules/EngineeringBay.png"/>
+  <Texture ID="Greenhouse" File="DefaultGraphics/Modules/Greenhouse.png"/>
+  <Texture ID="ReactorMedium" File="DefaultGraphics/Modules/ReactorMedium.png"/>
+  <Texture ID="ReactorSmall" File="DefaultGraphics/Modules/ReactorSmall.png"/>
+  <Texture ID="ShieldMedium" File="DefaultGraphics/Modules/ShieldMedium.png"/>
+  <Texture ID="ShieldSmall" File="DefaultGraphics/Modules/ShieldSmall.png"/>
+  <Texture ID="ThrusterSmall" File="DefaultGraphics/Modules/ThrusterSmall.png"/>
+  <Texture ID="ThrusterSmallAngled" File="DefaultGraphics/Modules/ThrusterSmallAngled.png"/>
+  <Texture ID="TurretMount" File="DefaultGraphics/Modules/TurretMount.png"/>
+  
+  <!-- TURRETS -->
+  <Texture ID="AutocannonTurret" File="DefaultGraphics/Turrets/AutocannonTurret.png"/>
+  <Texture ID="LaserCannonTurret" File="DefaultGraphics/Turrets/LaserCannonTurret.png"/>
+    
+  <!-- Template:
+  <Texture ID="" File=""/>
+  -->
+</Textures>

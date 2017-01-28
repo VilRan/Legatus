@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Settings
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="Conquest Settings.xsd"
+  >
+  <Localization>English</Localization>
+  <Display>
+    <Mode>Borderless</Mode><!-- Fullscreen, Windowed or Borderless. Defaults to Borderless if empty or invalid.-->
+    <Width></Width><!-- In pixels. Defaults to desktop width. -->
+    <Height></Height><!-- In pixels. Defaults to desktop height. -->
+  </Display>
+  <Mods>
+    <!--Mods that are active by default. Order matters; mods further down will override earlier ones if there are any conflicts.-->
+    <Mod>DefaultGraphics</Mod>
+    <Mod>DefaultRuleset</Mod>
+  </Mods>
+</Settings>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Sprites>
+  <Sprite
+    ID="Star"
+    >
+    <Textures>
+      <Texture
+        ID="Star"
+        X="0"
+        Y="0"
+        Width="15"
+        Height="15"
+        />
+      <Texture
+        ID="StarGlow"
+        X="0"
+        Y="0"
+        Width="15"
+        Height="15"
+        />
+    </Textures>
+  </Sprite>
+</Sprites>

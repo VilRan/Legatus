@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Textures>
+  <Texture
+    ID="Grass"
+    Source="DefaultGraphics/Textures/Grass.png"
+    />
+  <Texture
+    ID="Dirt"
+    Source="DefaultGraphics/Textures/Dirt.png"
+    />
+  <Texture
+    ID="Rock"
+    Source="DefaultGraphics/Textures/Rock.png"
+    />
+  <Texture
+    ID="Water"
+    Source="DefaultGraphics/Textures/Water.png"
+    />
+  <Texture
+    ID="Human"
+    Source="DefaultGraphics/Textures/Human.png"
+    />
+</Textures>

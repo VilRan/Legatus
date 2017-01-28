@@ -1,0 +1,4 @@
+﻿
+*You are responsible for the survival of a small clan in a vast, dangerous and ever-changing world.
+	*Clan members are individuals with limited lifespans, but they can leave a legacy behind.
+	*There is no abundance of food or any other materials: soil can be depleted, prey may be hunted to extinction, metal ores are rare and nonrenewable. Survival here really means survival.

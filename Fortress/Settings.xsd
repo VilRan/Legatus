@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Settings"
+    xmlns="Conquest"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="Settings">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Localization"></xs:element>
+        <xs:element name="Display">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Mode"></xs:element>
+              <xs:element name="Width"></xs:element>
+              <xs:element name="Height"></xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Mods">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Mod" maxOccurs="unbounded"></xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CrewTypes>
+
+  <CrewType ID="Astronaut" Title="AstronautTitle" Description="AstronautDesc" Attack="1" Defense="5" Wage="10">
+    <WorkOutput ID="Labor" Amount="10"/>
+  </CrewType>
+  
+  <CrewType ID="Engineer" Title="EngineerTitle" Description="EngineerDesc" Attack="1" Defense="6" Wage="30">
+    <WorkOuput ID="Engineering" Amount="10"/>
+    <WorkOutput ID="Labor" Amount="10"/>
+  </CrewType>
+  
+  <CrewType ID="Biologist" Title="BiologistTitle" Description="BiologistDesc" Attack="1" Defense="4" Wage="50">
+    <WorkOutput ID="Biology" Amount="10"/>
+    <WorkOutput ID="Labor" Amount="10"/>
+  </CrewType>
+
+  <CrewType ID="Physicist" Title="PhysicistTitle" Description="PhysicistDesc" Attack="1" Defense="4" Wage="60">
+    <WorkOutput ID="Physics" Amount="10"/>
+    <WorkOutput ID="Labor" Amount="10"/>
+  </CrewType>
+
+  <CrewType ID="Marine" Title="MarineTitle" Description="MarineDesc" Attack="3" Defense="8" Wage="20">
+    <WorkOutput ID="Labor" Amount="10"/>
+  </CrewType>
+  
+  <CrewType ID="Elite" Title="EliteTitle" Description="EliteDesc" Attack="10" Defense="20" Wage="40">
+    <WorkOutput ID="Labor" Amount="10"/>
+  </CrewType>
+  
+</CrewTypes>

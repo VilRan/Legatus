@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PlanetTypes>
+  <PlanetType ID="Barren">
+    <ResourceOutputModifier ID="Food" Multiplier="0.00"/>
+  </PlanetType>
+</PlanetTypes>

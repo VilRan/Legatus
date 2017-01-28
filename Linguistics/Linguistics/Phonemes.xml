@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+Occurence rates mostly taken from: http://web.phonetik.uni-frankfurt.de/upsid.html
+-->
+
+<Phonemes>
+  <Vowels>
+    <!-- Template:
+    <Vowel Height="" Backness="" Roundedness="" Grapheme="" IPA="" Occurence=""/>
+    -->
+    <Vowel Height="High" Backness="Front" Roundedness="Unrounded" Grapheme="i" IPA="i" Occurence="0.87"/>
+    <Vowel Height="High" Backness="Front" Roundedness="Rounded" Grapheme="ü" IPA="y" Occurence="0.05"/>
+    <Vowel Height="High" Backness="Central" Roundedness="Unrounded" Grapheme="ï" IPA="ɨ" Occurence="0.14"/>
+    <Vowel Height="High" Backness="Back" Roundedness="Unrounded" Grapheme="w" IPA="ɯ" Occurence="0.09"/>
+    <Vowel Height="High" Backness="Back" Roundedness="Rounded" Grapheme="u" IPA="u" Occurence="0.82"/>
+    <Vowel Height="HigherMid" Backness="Front" Roundedness="Unrounded" Grapheme="é" IPA="e" Occurence="0.24"/>
+    <Vowel Height="HigherMid" Backness="Back" Roundedness="Rounded" Grapheme="ó" IPA="o" Occurence="0.29"/>
+    <Vowel Height="Mid" Backness="Front" Roundedness="Unrounded" Grapheme="e" IPA="e̞" Occurence="0.37"/>
+    <Vowel Height="Mid" Backness="Front" Roundedness="Rounded" Grapheme="ö" IPA="ø̞" Occurence="0.04"/>
+    <Vowel Height="Mid" Backness="Central" Roundedness="Unrounded" Grapheme="ë" IPA="ə" Occurence="0.17"/>
+    <Vowel Height="Mid" Backness="Back" Roundedness="Rounded" Grapheme="o" IPA="o̞" Occurence="0.40"/>
+    <Vowel Height="LowerMid" Backness="Front" Roundedness="Unrounded" Grapheme="è" IPA="ɛ" Occurence="0.41"/>
+    <Vowel Height="LowerMid" Backness="Back" Roundedness="Rounded" Grapheme="ò" IPA="ɔ" Occurence="0.36"/>
+    <Vowel Height="RaisedLow" Backness="Front" Roundedness="Unrounded" Grapheme="ä" IPA="æ" Occurence="0.09"/>
+    <Vowel Height="Low" Backness="Front" Roundedness="Unrounded" Grapheme="á" IPA="a" Occurence="0.06"/>
+    <Vowel Height="Low" Backness="Central" Roundedness="Unrounded" Grapheme="a" IPA="ä" Occurence="0.87"/>
+    <Vowel Height="Low" Backness="Back" Roundedness="Unrounded" Grapheme="à" IPA="ɑ" Occurence="0.06"/>
+    <Vowel Height="Low" Backness="Back" Roundedness="Rounded" Grapheme="o" IPA="ɒ" Occurence="0.05"/>
+  </Vowels>
+  
+  <Consonants>
+    <!-- Template:
+    <Consonant Voicing="" Place="" Manner="" Grapheme="" IPA="" Occurence=""/>
+    -->
+    <Consonant Voicing="Voiced" Place="Palatal" Manner="Approximant" Grapheme="y" IPA="j" Occurence="0.84"/>
+    <Consonant Voicing="Voiced" Place="LabialVelar" Manner="Approximant" Grapheme="w" IPA="w" Occurence="0.74"/>
+    <Consonant Voicing="Voiced" Place="Alveolar" Manner="Approximant" Grapheme="r" IPA="ɹ" Occurence="0.10"/>
+    <Consonant Voicing="Voiced" Place="Alveolar" Manner="LateralApproximant" Grapheme="l" IPA="l" Occurence="0.69"/>
+    <Consonant Voicing="Voiced" Place="Alveolar" Manner="Trill" Grapheme="r" IPA="r" Occurence="0.32"/>
+    <Consonant Voicing="Voiced" Place="Alveolar" Manner="Flap" Grapheme="r" IPA="ɾ" Occurence="0.20"/>
+
+    <Consonant Voicing="Voiced" Place="Bilabial" Manner="Nasal" Grapheme="m" IPA="m" Occurence="0.94"/>
+    <Consonant Voicing="Voiced" Place="Alveolar" Manner="Nasal" Grapheme="n" IPA="n" Occurence="0.80"/>
+    <Consonant Voicing="Voiced" Place="Palatal" Manner="Nasal" Grapheme="n" IPA="ɲ" Occurence="0.31"/>
+    <Consonant Voicing="Voiced" Place="Velar" Manner="Nasal" Grapheme="ng" IPA="ŋ" Occurence="0.53"/>
+
+    <Consonant Voicing="Voiceless" Place="Alveolar" Manner="SibilantFricative" Grapheme="s" IPA="s" Occurence="0.73"/>
+    <Consonant Voicing="Voiced" Place="Alveolar" Manner="SibilantFricative" Grapheme="z" IPA="z" Occurence="0.24"/>
+    <Consonant Voicing="Voiceless" Place="PalatoAlveolar" Manner="SibilantFricative" Grapheme="sh" IPA="ʃ" Occurence="0.42"/>
+    <Consonant Voicing="Voiced" Place="PalatoAlveolar" Manner="SibilantFricative" Grapheme="zh" IPA="ʒ" Occurence="0.14"/>
+
+    <Consonant Voicing="Voiceless" Place="Bilabial" Manner="Fricative" Grapheme="ph" IPA="ɸ" Occurence="0.09"/>
+    <Consonant Voicing="Voiced" Place="Bilabial" Manner="Fricative" Grapheme="bh" IPA="β" Occurence="0.12"/>
+    <Consonant Voicing="Voiceless" Place="Labiodental" Manner="Fricative" Grapheme="f" IPA="f" Occurence="0.40"/>
+    <Consonant Voicing="Voiceless" Place="Glottal" Manner="Fricative" Grapheme="h" IPA="h" Occurence="0.62"/>
+    <Consonant Voicing="Voiced" Place="Labiodental" Manner="Fricative" Grapheme="v" IPA="v" Occurence="0.21"/>
+    <Consonant Voicing="Voiceless" Place="Velar" Manner="Fricative" Grapheme="kh" IPA="x" Occurence="0.21"/>
+    <Consonant Voicing="Voiced" Place="Velar" Manner="Fricative" Grapheme="gh" IPA="ɣ" Occurence="0.12"/>
+    <Consonant Voicing="Voiceless" Place="Dental" Manner="Fricative" Grapheme="th" IPA="θ" Occurence="0.04"/>
+    <Consonant Voicing="Voiced" Place="Dental" Manner="Fricative" Grapheme="dh" IPA="ð" Occurence="0.05"/>
+
+    <Consonant Voicing="Voiceless" Place="Alveolar" Manner="SibilantAffricate" Grapheme="ts" IPA="t͡s" Occurence="0.24"/>
+    <Consonant Voicing="Voiced" Place="Alveolar" Manner="SibilantAffricate" Grapheme="dz" IPA="d͡z" Occurence="0.09"/>
+    <Consonant Voicing="Voiceless" Place="PalatoAlveolar" Manner="SibilantAffricate" Grapheme="ch" IPA="t͡ʃ" Occurence="0.42"/>
+    <Consonant Voicing="Voiced" Place="PalatoAlveolar" Manner="SibilantAffricate" Grapheme="j" IPA="d͡ʒ" Occurence="0.25"/>
+
+    <Consonant Voicing="Voiceless" Place="Alveolar" Manner="Plosive" Grapheme="t" IPA="t" Occurence="0.40"/>
+    <Consonant Voicing="Voiceless" Place="DentalAlveolar" Manner="Plosive" Grapheme="t" IPA="t" Occurence="0.34"/>
+    <Consonant Voicing="Voiceless" Place="Dental" Manner="Plosive" Grapheme="t" IPA="t̪" Occurence="0.24"/>
+    <Consonant Voicing="Voiced" Place="Alveolar" Manner="Plosive" Grapheme="d" IPA="d" Occurence="0.27"/>
+    <Consonant Voicing="Voiced" Place="DentalAlveolar" Manner="Plosive" Grapheme="d" IPA="d" Occurence="0.20"/>
+    <Consonant Voicing="Voiced" Place="Dental" Manner="Plosive" Grapheme="d" IPA="d̪" Occurence="0.18"/>
+    <Consonant Voicing="Voiceless" Place="Bilabial" Manner="Plosive" Grapheme="p" IPA="p" Occurence="0.83"/>
+    <Consonant Voicing="Voiced" Place="Bilabial" Manner="Plosive" Grapheme="b" IPA="b" Occurence="0.64"/>
+    <Consonant Voicing="Voiceless" Place="Velar" Manner="Plosive" Grapheme="k" IPA="k" Occurence="0.89"/>
+    <Consonant Voicing="Voiced" Place="Velar" Manner="Plosive" Grapheme="g" IPA="g" Occurence="0.56"/>
+
+    <Consonant Voicing="Voiceless" Place="Glottal" Manner="Plosive" Grapheme="'" IPA="ʔ" Occurence="0.48"/>
+  </Consonants>
+</Phonemes>

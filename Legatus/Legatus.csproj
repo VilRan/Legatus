@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7C7CFBF2-3FD1-4DEB-A864-BE0053BD290C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Legatus</RootNamespace>
+    <AssemblyName>Legatus</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MonoGamePlatform>Windows</MonoGamePlatform>
+    <MonoGameContentBuilderExe>
+    </MonoGameContentBuilderExe>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Windows\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Windows\Release\</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="BasicGameState.cs" />
+    <Compile Include="Bresenham.cs" />
+    <Compile Include="GameState.cs" />
+    <Compile Include="Collections\ListExtensions.cs" />
+    <Compile Include="MapGeneration\ProceduralPlanet.cs" />
+    <Compile Include="MapGeneration\ProceduralPlanetOld.cs" />
+    <Compile Include="Mathematics\ByteExtensions.cs" />
+    <Compile Include="Mathematics\Formula.cs" />
+    <Compile Include="Mathematics\HitElement.cs" />
+    <Compile Include="Mathematics\MathExtra.cs" />
+    <Compile Include="Mathematics\PointExtensions.cs" />
+    <Compile Include="Mathematics\RandomExtensions.cs" />
+    <Compile Include="Mathematics\RectangleSizeComparer.cs" />
+    <Compile Include="Graphics\ColorExtensions.cs" />
+    <Compile Include="MapGeneration\DiamondSquare.cs" />
+    <Compile Include="Graphics\Flag.cs" />
+    <Compile Include="Graphics\FlagGenerator.cs" />
+    <Compile Include="Graphics\Primitives2D.cs" />
+    <Compile Include="Mathematics\RectangleExtensions.cs" />
+    <Compile Include="Graphics\BasicSprite.cs" />
+    <Compile Include="Graphics\TextureAtlas.cs" />
+    <Compile Include="Graphics\TextureAtlasManager.cs" />
+    <Compile Include="Graphics\TextureSizeComparer.cs" />
+    <Compile Include="Graphics\TextureUtility.cs" />
+    <Compile Include="MapGeneration\ProceduralHeightmap.cs" />
+    <Compile Include="Input\InputEventHandler.cs" />
+    <Compile Include="Input\InputHandler.cs" />
+    <Compile Include="Input\InputArgs.cs" />
+    <Compile Include="LegatusGame.cs" />
+    <Compile Include="MapGeneration\ProceduralRainmap.cs" />
+    <Compile Include="Mathematics\VectorExtensions.cs" />
+    <Compile Include="Pathfinding\BinaryHeap.cs" />
+    <Compile Include="Pathfinding\IPathfinderAgent.cs" />
+    <Compile Include="Pathfinding\IPathfinderTileMap.cs" />
+    <Compile Include="Pathfinding\PathfinderLink.cs" />
+    <Compile Include="Pathfinding\PathfinderNode.cs" />
+    <Compile Include="Pathfinding\Pathfinder.cs" />
+    <Compile Include="Pathfinding\PathfinderPath.cs" />
+    <Compile Include="Pathfinding\PathfinderTile.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Input\IInputReceiver.cs" />
+    <Compile Include="Input\InputReceiverHandler.cs" />
+    <Compile Include="UI\UIActive.cs" />
+    <Compile Include="UI\UIBranch.cs" />
+    <Compile Include="UI\UIButton.cs" />
+    <Compile Include="UI\UIButtonDynamic.cs" />
+    <Compile Include="UI\UIButtonSimple.cs" />
+    <Compile Include="UI\UIDecoration.cs" />
+    <Compile Include="UI\UIDynamicSprite.cs" />
+    <Compile Include="UI\UIElement.cs" />
+    <Compile Include="UI\IUIBase.cs" />
+    <Compile Include="UI\UIView.cs" />
+    <Compile Include="UI\UIViewport.cs" />
+    <Compile Include="UI\UIWindow.cs" />
+    <Compile Include="UI\UIWindowDynamic.cs" />
+    <Compile Include="UI\GameUI.cs" />
+    <Compile Include="UI\UIWindowDynamicSprite.cs" />
+    <Compile Include="UI\UIWindowSimple.cs" />
+    <Compile Include="UI\UIText.cs" />
+    <Compile Include="UI\UITextBox.cs" />
+    <Compile Include="UI\UITooltip.cs" />
+    <Compile Include="Mathematics\VectorUtility.cs" />
+    <Compile Include="Collections\WeightedList.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>$(MSBuildProgramFiles32)\MonoGame\v3.0\Assemblies\Windows\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icon.ico" />
+    <Content Include="TODO.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="Content\Content.mgcb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Scripting\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

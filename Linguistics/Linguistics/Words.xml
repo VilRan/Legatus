@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Template:
+  <Word Meaning=""/>
+-->
+<Words>
+  <Word Meaning="sun"/>
+  <Word Meaning="moon"/>
+  <Word Meaning="earth"/>
+  <Word Meaning="water"/>
+  <Word Meaning="fire"/>
+  <Word Meaning="air"/>
+  <Word Meaning="hill"/>
+  <Word Meaning="mountain"/>
+  <Word Meaning="cave"/>
+  <Word Meaning="river"/>
+  <Word Meaning="lake"/>
+  <Word Meaning="sea"/>
+  <Word Meaning="shore"/>
+  <Word Meaning="village"/>
+  <Word Meaning="town"/>
+  <Word Meaning="city"/>
+  <Word Meaning="color"/>
+  <Word Meaning="red"/>
+  <Word Meaning="yellow"/>
+  <Word Meaning="green"/>
+  <Word Meaning="blue"/>
+  <Word Meaning="black"/>
+  <Word Meaning="white"/>
+</Words>

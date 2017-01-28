@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Settings>
+  <Localization Language="English"/>
+  <Display Mode="" Width="" Height=""/><!--Available modes are: Fullscreen, Windowed and Borderless. Leave empty to default to borderless and desktop resolution. -->
+  <Mods><!--Mods that are active by default. Order matters; mods further down will override earlier ones if there are any conflicts.-->
+    <Mod ID="DefaultGraphics"/>
+    <Mod ID="DefaultRuleset"/>
+  </Mods>
+</Settings>

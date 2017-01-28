@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Localization Language="English">
+  <!-- CREW TYPES -->
+  <String ID="AstronautTitle">
+    <Singular>Astronaut</Singular>
+    <Plural>Astronauts</Plural>
+  </String>
+  <String ID="AstronautDesc">
+    Since in space everyone is an astronaut, the title has come to mean a rank equivalent to a private or seaman.\n Yields {CrewTypes[Astronaut].WorkOutputs[0].Amount} Labor per turn.
+  </String>
+  
+  <String ID="EngineerTitle">
+    <Singular>Engineer</Singular>
+    <Plural>Engineers</Plural>
+  </String>
+  <String ID="EngineerDesc">
+    
+  </String>
+  
+  <String ID="BiologistTitle">
+    <Singular>Biologist</Singular>
+    <Plural>Biologists</Plural>
+  </String>
+  <String ID="BiologistDesc">
+    
+  </String>
+
+  <String ID="PhysicistTitle">
+    <Singular>Physicist</Singular>
+    <Plural>Physicists</Plural>
+  </String>
+  <String ID="PhysicistDesc">
+
+  </String>
+  
+  <String ID="MarineTitle">
+    <Singular>Marine</Singular>
+    <Plural>Marines</Plural>
+  </String>
+  <String ID="MarineDesc">
+    Astronauts specialized in combat.
+  </String>
+  
+  <String ID="EliteTitle">
+    <Singular>Elite</Singular>
+    <Plural>Elites</Plural>
+  </String>
+  <String ID="EliteDesc">
+    Highly trained combat specialists.
+  </String>
+  
+  <!-- WORK TYPES -->
+  <String ID="LaborTitle">Labor</String>
+  <String ID="LaborDesc"></String>
+  <String ID="EngineeringTitle">Engineering</String>
+  <String ID="EngineeringDesc"></String>
+  <String ID="BiologyTitle">Biology</String>
+  <String ID="BiologyDesc"></String>
+  <String ID="PhysicsTitle">Biology</String>
+  <String ID="PhysicsDesc"></String>
+
+  <!-- SHIP MODULES -->
+  <String ID="ArmorTitle">
+    <Singular>Armor</Singular>
+    <Plural>Armor</Plural>
+  </String>
+  <String ID="ArmorDesc">
+    
+  </String>
+  
+  <String ID="ArmorAngledTitle">
+    <Singular>Armor, Angled</Singular>
+    <Plural>Armor, Angled</Plural>
+  </String>
+  <String ID="ArmorAngledDesc">
+    
+  </String>
+  
+  <String ID="ArmorRoundedTitle">
+    <Singular>Armor, Rounded</Singular>
+    <Plural>Armor, Rounded</Plural>
+  </String>
+  <String ID="ArmorRoundedDesc">
+    
+  </String>
+  
+  <String ID="ThrusterSmallTitle">
+    <Singular>Thruster, Small</Singular>
+    <Plural>Thruster, Small</Plural>
+  </String>
+  <String ID="ThrusterSmallDesc">
+    
+  </String>
+  
+  <String ID="ThrusterSmallAngledTitle">
+    <Singular>Thruster, Small, Angled</Singular>
+    <Plural>Thrusters, Small, Angled</Plural>
+  </String>
+  <String ID="ThrusterSmallAngledDesc">
+    
+  </String>
+  
+  <String ID="ReactorSmallTitle">
+    <Singular>Reactor, Small</Singular>
+    <Plural>Reactors, Small</Plural>
+  </String>
+  <String ID="ReactorSmallDesc">
+    
+  </String>
+  
+  <String ID="ReactorMediumTitle">
+    <Singular>Reactor, Medium</Singular>
+    <Plural>Reactors, Medium</Plural>
+  </String>
+  <String ID="ReactorMediumDesc">
+    
+  </String>
+  
+  <String ID="CapacitorTitle">
+    <Singular>Capacitor</Singular>
+    <Plural>Capacitors</Plural>
+  </String>
+  <String ID="CapacitorDesc">
+    
+  </String>
+  
+  <String ID="ShieldSmallTitle">
+    <Singular>Shield, Small</Singular>
+    <Plural>Shields, Small</Plural>
+  </String>
+  <String ID="ShieldSmallDesc">
+    
+  </String>
+  
+  <String ID="ShieldMediumTitle">
+    <Singular>Shield, Medium</Singular>
+    <Plural>Shields, Medium</Plural>
+  </String>
+  <String ID="ShieldMediumDesc">
+    
+  </String>
+  
+  <String ID="GreenhouseTitle">
+    <Singular>Greenhouse</Singular>
+    <Plural>Greenhouse</Plural>
+  </String>
+  <String ID="GreenhouseDesc">
+    
+  </String>
+  
+  <String ID="EngineeringBayTitle">
+    <Singular>Engineering Bay</Singular>
+    <Plural>Engineering Bays</Plural>
+  </String>
+  <String ID="EngineeringBayDesc">
+    
+  </String>
+  
+  <String ID="CargoBayTitle">
+    <Singular>Cargo Bay</Singular>
+    <Plural>Cargo Bays</Plural>
+  </String>
+  <String ID="CargoBayDesc">
+    
+  </String>
+  
+  <String ID="AutocannonTurretTitle">
+    <Singular>Autocannon, Turret</Singular>
+    <Plural>Autocannon, Turret</Plural>
+  </String>
+  <String ID="AutocannonTurretDesc">
+    
+  </String>
+  
+  <String ID="LaserCannonTurretTitle">
+    <Singular>Laser Cannon, Turret</Singular>
+    <Plural>Laser Cannon, Turret</Plural>
+  </String>
+  <String ID="LaserCannonTurretDesc">
+    
+  </String>
+  
+</Localization>

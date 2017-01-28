@@ -1,0 +1,5 @@
+﻿
+TODO list for Legatus Project
+
+-Use UIDecoration for window frame.
+-Create UITable class.

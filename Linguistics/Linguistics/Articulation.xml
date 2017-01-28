@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Articulations>
+  <!--
+  Vowel-Semivowel Equivalence:
+    *High Front - Palatal
+    *High Back - LabialVelar
+  -->
+  <!-- Vowels -->
+  <!-- Height -->
+  <Articulation Definition="High" Position="-1.0" Sonority="5.0"/>
+  <Articulation Definition="LoweredHigh" Position="-0.7" Sonority="5.3"/>
+  <Articulation Definition="HigherMid" Position="-0.3" Sonority="5.7"/>
+  <Articulation Definition="Mid" Position="0.0" Sonority="6.0"/>
+  <Articulation Definition="LowerMid" Position="0.3" Sonority="6.3"/>
+  <Articulation Definition="RaisedLow" Position="0.7" Sonority="6.7"/>
+  <Articulation Definition="Low" Position="1.0" Sonority="7.0"/>
+  
+  <!-- Backness -->
+  <Articulation Definition="Front" Position="-1.0" Sonority="0.0"/>
+  <Articulation Definition="RetractedFront" Position="-0.5" Sonority="0.0"/>
+  <Articulation Definition="Central" Position="0.0" Sonority="0.0"/>
+  <Articulation Definition="FrontedBack" Position="0.5" Sonority="0.0"/>
+  <Articulation Definition="Back" Position="1.0" Sonority="0.0"/>
+  
+  <!-- Roundedness -->
+  <Articulation Definition="Unrounded" Position="0.0" Sonority="0.0"/>
+  <Articulation Definition="Rounded" Position="0.0" Sonority="0.0"/>
+  
+  <!-- Consonants -->
+  <!-- Voicing -->
+  <Articulation Definition="Voiceless" Position="0.0" Sonority="0.0"/>
+  <Articulation Definition="Voiced" Position="0.0" Sonority="0.2"/>
+  
+  <!-- Place -->
+  <Articulation Definition="Bilabial" Position="1.2" Sonority="0.0"/>
+  <Articulation Definition="Labiodental" Position="1.1" Sonority="0.0"/>
+  <Articulation Definition="LabialVelar" Position="1.0" Sonority="0.0"/>
+  <Articulation Definition="Dental" Position="0.5" Sonority="0.0"/>
+  <Articulation Definition="DentalAlveolar" Position="0.25" Sonority="0.0"/>
+  <Articulation Definition="Alveolar" Position="0.0" Sonority="0.0"/>
+  <Articulation Definition="PalatoAlveolar" Position="-0.25" Sonority="0.0"/>
+  <Articulation Definition="Palatal" Position="-1.0" Sonority="0.0"/>
+  <Articulation Definition="Velar" Position="-1.2" Sonority="0.0"/>
+  <Articulation Definition="Glottal" Position="-1.5" Sonority="0.0"/>
+  
+  <!-- Manner -->
+  <Articulation Definition="Nasal" Position ="0.0" Sonority="3.0"/>
+  <Articulation Definition="Plosive" Position="1.0" Sonority="1.0"/>
+  <Articulation Definition="SibilantAffricate" Position="1.6" Sonority="1.5"/>
+  <Articulation Definition="SibilantFricative" Position="2.0" Sonority="2.0"/>
+  <Articulation Definition="Fricative" Position="2.5" Sonority="2.0"/>
+  <Articulation Definition="Approximant" Position="4.0" Sonority="4.0"/>
+  <Articulation Definition="Trill" Position="4.5" Sonority="4.0"/>
+  <Articulation Definition="Flap" Position="4.5" Sonority="4.0"/>
+  <Articulation Definition="LateralApproximant" Position="5.0" Sonority="4.0"/>
+</Articulations>

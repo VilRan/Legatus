@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Phonotactics>
+  <!--Template:
+  <Constraint Definition="" Forbidden="" Optional="" Required=""/>
+  Available constraint definitions are hardcoded for now.
+  Forbidden, Optional and Required determine the proportion of languages that use this phonotactic constraint in the respective way. They are mutually exclusive. Need not add up to 100.
+  -->
+  <Constraint Definition="Nucleus" Forbidden="0" Optional="5" Required="100"/>
+  <Constraint Definition="WordInitialOnset" Forbidden="5" Optional="100" Required="25"/>
+  <Constraint Definition="WordMedialOnset" Forbidden="1" Optional="5" Required="100"/>
+  <Constraint Definition="WordMedialCoda" Forbidden="25" Optional="50" Required="10"/>
+  <Constraint Definition="WordFinalCoda" Forbidden="25" Optional="50" Required="10"/>
+  <Constraint Definition="Diphthongs" Forbidden="75" Optional="25" Required="5"/>
+  <Constraint Definition="ConsonantClusters" Forbidden="50" Optional="25" Required="1"/>
+  <Constraint Definition="Geminates" Forbidden="100" Optional="25" Required="1"/>
+  <!-- These do nothing yet: -->
+  <Constraint Definition="LongVowels" Forbidden="50" Optional="50" Required="1"/>
+  <Constraint Definition="VowelHarmony" Forbidden="0" Optional="100" Required="10"/>
+  <Constraint Definition="NPtoMPSandhi" Forbidden="10" Optional="10" Required="20"/>
+  <Constraint Definition="InitialNg" Forbidden="100" Optional="50" Required="0"/>
+  <!--Constraint Definition="NasalCoda"/-->
+</Phonotactics>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Terrains>
+  <Terrain
+    ID="Grass"
+    Sprite="Grass"
+    Cost="2.0"
+    />
+  <Terrain
+    ID="Dirt"
+    Sprite="Dirt"
+    Cost="1.5"
+    />
+  <Terrain
+    ID="Rock"
+    Sprite="Rock"
+    Cost="1.0"
+    />
+  <Terrain
+    ID="Water"
+    Sprite="Water"
+    Cost="10.0"
+    />
+</Terrains>

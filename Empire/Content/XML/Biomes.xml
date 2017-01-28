@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Biomes>
+  <Biome UID="Sea" File="Sea.png" Name="Sea"/>
+  <Biome UID="Lake" File="Lake.png" Name="Lake"/>
+  <Biome UID="Grass" File="Grass.png" Name="Lush"/>
+  <Biome UID="Steppe" File="Steppe.png" Name="Dry"/>
+  <Biome UID="Rock" File="Rock.png" Name="Rocky"/>
+  <Biome UID="Sand" File="Sand.png" Name="Sand"/>
+  <Biome UID="Snow" File="Snow.png" Name="Snow"/>
+  <Biome UID="Ice" File="Ice.png" Name="Ice"/>
+</Biomes>

@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Modules>
+  
+  <Module ID="Armor" Title="ArmorTitle" Desc="ArmorDesc" Description="ArmorDesc" Sprite="Armor" Size="1, 1" Attach="ENWS" Rotate="false" HP="1000" Mass="1000">
+    <HitPolygon Points="0, 0; 1, 0; 1, 1; 0, 1"/>
+    <ResourceCost ID="Metal" Amount="100"/>
+    <WorkCost ID="Labor" Amount="100"/>
+    <WorkCost ID="Engineering" Amount="10"/>
+  </Module>
+  
+  <Module ID="ArmorAngled" Title="ArmorAngledTitle" Desc="ArmorAngledDesc" Sprite="ArmorAngled" Size="1, 1" Attach="WS" Rotate="true" HP="500" Mass="500">
+    <HitPolygon Points="0, 0; 0, 1; 1, 1"/>
+    <ResourceCost ID="Metal" Amount="50"/>
+    <WorkCost ID="Labor" Amount="50"/>
+    <WorkCost ID="Engineering" Amount="5"/>
+  </Module>
+  
+  <Module ID="ArmorRounded" Title="ArmorRoundedTitle" Desc="ArmorRoundedDesc" Sprite="ArmorRounded" Size="1, 1" Attach="WS" Rotate="true" HP="750" Mass="750">
+    <HitPolygon Points="0, 0; 0.75, 0.25; 1, 1; 0, 1"/>
+    <ResourceCost ID="Metal" Amount="75"/>
+    <WorkCost ID="Labor" Amount="75"/>
+    <WorkCost ID="Engineering" Amount="8"/>
+  </Module>
+  
+  <Module ID="ThrusterSmall" Title="ThrusterSmallTitle" Desc="ThrusterSmallDesc" Sprite="ThrusterSmall" Size="1, 1" Attach="N" Rotate="true" HP="100" Mass="200">
+    <Thruster Thrust="1000" Direction="0.75">
+      <ResourceUsage ID="Energy" Amount="100"/>
+      <ResourceUsage ID="Fuel" Amount="1"/>
+    </Thruster>
+    <HitPolygon Points="0, 0; 1, 0, 1, 0.5; 0, 0.5"/>
+    <ResourceCost ID="Metal" Amount="20"/>
+  </Module>
+  
+  <Module ID="ThrusterSmallAngled" Title="ThrusterSmallAngledTitle" Desc="ThrusterSmallAngledDesc" Sprite="ThrusterSmallAngled" Size="1, 1" Attach="WS" Rotate="true" HP="100" Mass="200">
+    <Thruster Thrust="1000" Direction="0.125">
+      <ResourceUsage ID="Energy" Amount="100"/>
+      <ResourceUsage ID="Fuel" Amount="1"/>
+    </Thruster>
+    <HitPolygon Points="0, 0; 1, 0; 1, 1; 0, 1"/>
+    <ResourceCost ID="Metal" Amount="20"/>
+  </Module>
+  
+  <Module ID="ReactorSmall" Title="ReactorSmallTitle" Desc="ReactorSmallDesc" Sprite="ReactorSmall" Size="1, 1" Attach="ENWS" Rotate="false" HP="100" Mass="250">
+    <ResourceProduction>
+      <Output ID="Energy" Amount="100"/>
+    </ResourceProduction>
+    <HitCircle Center="0.5, 0.5" Radius="0.5"/>
+    <ResourceCost ID="Metal" Amount="25"/>
+  </Module>
+  
+  <Module ID="ReactorMedium" Title="ReactorMediumTitle" Desc="ReactorMediumDesc" Sprite="ReactorMedium" Size="2, 2" Attach="ENWS" Rotate="false" HP="200" Mass="750">
+    <ResourceProduction>
+      <Output ID="Energy" Amount="400"/>
+    </ResourceProduction>
+    <HitCircle Center="1.0, 1.0" Radius="1.0"/>
+    <ResourceCost ID="Metal" Amount="75"/>
+  </Module>
+  
+  <Module ID="Capacitor" Title="CapacitorTitle" Desc="CapacitorDesc" Sprite="Capacitor" Size="1, 1" Attach="ENWS" Rotate="false" HP="100" Mass="200">
+    <ResourceStorage Amount="1000" Exclusive="true">
+      <Allow ID="Energy"/>
+    </ResourceStorage>
+    <HitPolygon Points="0, 0; 1, 0; 1, 1; 0, 1"/>
+    <ResourceCost ID="Metal" Amount="20"/>
+  </Module>
+  
+  <Module ID="ShieldSmall" Title="ShieldSmallTitle" Desc="ShieldSmallDesc" Sprite="ShieldSmall" Size="1, 1" Attach="ENWS" Rotate="false" HP="150" Mass="300">
+    <Shield Radius="5" HP="1000" Regeneration="10">
+      <ResourceUsage ID="Energy" Amount="100"/>
+    </Shield>
+    <HiCircle Center="0.5, 0.5" Radius="0.5"/>
+    <ResourceCost ID="Metal" Amount="30"/>
+  </Module>
+  
+  <Module ID="ShieldMedium" Title="ShieldMediumTitle" Desc="ShieldMediumDesc" Sprite="ShieldMedium" Size="2, 2" Attach="ENWS" Rotate="false" HP="300" Mass="900">
+    <Shield Radius="10" HP="2000" Regeneration="20">
+      <ResourceUsage ID="Energy" Amount="200"/>
+    </Shield>
+    <HitCircle Center="1.0, 1.0" Radius="1.0"/>
+    <ResourceCost ID="Metal" Amount="90"/>
+  </Module>
+  
+  <Module ID="Greenhouse" Title="GreenhouseTitle" Desc="GreenhouseDesc" Sprite="Greenhouse" Size="1, 1" Attach="ENWS" Rotate="false" HP="200" Mass="200">
+    <ResourceProduction>
+      <Output ID="Food" Amount="20"/>
+      <Input ID="Energy" Amount="20"/>
+    </ResourceProduction>
+    <CrewRequirement ID="Biologist" Number="2"/>
+    <HitPolygon Points="0, 0; 1, 0; 1, 1; 0, 1"/>
+    <ResourceCost ID="Metal" Amount="20"/>
+    <WorkCost ID="Engineering" Amount="20"/>
+    <WorkCost ID="Biology" Amount="20"/>
+  </Module>
+
+  <Module ID="EngineeringBay" Title="EngineeringBayTitle" Desc="EngineeringBayDesc" Sprite="EngineeringBay" Size="1, 1" Attach="ENWS" Rotate="false" HP="300" Mass="500">
+    <WorkOutput ID="Engineering" Amount="4"/>
+    <CrewRequirement ID="Engineer" Number="4"/>
+    <HitPolygon Points="0, 0; 1, 0; 1, 1; 0, 1"/>
+    <ResourceCost ID="Metal" Amount="100"/>
+    <WorkCost ID="Engineering" Amount="10"/>
+  </Module>
+
+  <Module ID="CargoBay" Title="CargoBayTitle" Desc="CargoBayDesc" Sprite="CargoBay" Size="1, 1" Attach="ENWS" Rotate="false" HP="400" Mass="200">
+    <ResourceStorage Amount="100" Exclusive="false">
+      <Forbid ID="Energy"/>
+    </ResourceStorage>
+    <HitPolygon Points="0, 0; 1, 0; 1, 1; 0, 1"/>
+    <ResourceCost ID="Metal" Amount="20"/>
+  </Module>
+  
+  <Module ID="AutocannonTurret" Title="AutocannonTurretTitle" Desc="AutocannonTurretDesc" Sprite="TurretMount" Size="1, 1" Attach="S" Rotate="true" HP="300" Mass="300">
+    <Turret Weapon="Autocannon" Sprite="AutocannonTurret" Position="0.5, 0.5" MinAngle="0" MaxAngle="0.5" TurnSpeed="0.25"/>
+    <HitPolygon Points="0, 1; 0.5, 0.5; 1, 1"/>
+    <ResourceCost ID="Metal" Amount="30"/>
+  </Module>
+
+  <Module ID="LaserCannonTurret" Title="LaserCannonTurretTitle" Desc="LaserCannonTurretDesc" Sprite="TurretMount" Size="1, 1" Attach="S" Rotate="true" HP="200" Mass="250">
+    <Turret Weapon="LaserCannon" Sprite="LaserCannonTurret" Position="0.5, 0.5" MinAngle="0" MaxAngle="0.5" TurnSpeed="0.5"/>
+    <HitPolygon Points="0, 1; 0.5, 0.5; 1, 1"/>
+    <ResourceCost ID="Metal" Amount="25"/>
+  </Module>
+  
+  <!--
+    Template:
+    <Module ID="" Title="" Sprite="" Size="1, 1" Attach="ENWS" Rotate="false" HP="1000" Mass="1000">
+      <HitPolygon Points="0, 0; 1, 0; 1, 1; 0, 1"/>
+      <ResourceCost ID="Metal" Amount="100"/>
+      <WorkCost ID="Labor" Amount="100"/>
+      <WorkCost ID="Engineering" Amount="10"/>
+    </Module>
+    
+    <ResourceStorage Amount="" Exclusive="">
+      <Allow ID=""/>
+      <Forbid ID=""/>
+    </ResourceStorage>
+    Amount: The total amount of resources that can be stored, in arbitrary units.
+    Exclusive: true/false. If true, everything not explicitly allowed is forbidden. If false, everything not explicitly forbidden is allowed.
+    Allow: Allows the resource with the specified ID.
+    Forbid: Forbids the resource with the specified ID.
+    Allow/Forbid rules lower down the list override previous ones.
+    
+    <ResourceProduction>
+      <Output ID="" Amount=""/>
+      <Input ID="" Amount=""/>
+    </ResourceProduction>
+    Produces the specified amounts of Output resources while consuming the specified amounts of Input resources.
+  -->
+</Modules>

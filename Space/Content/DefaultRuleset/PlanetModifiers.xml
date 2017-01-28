@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PlanetModifiers>
+  <PlanetModifier ID="MetalPoor" Title="MetalPoorTitle" Desc="MetalPoorDesc">
+    <ResourceOutputModifier ID="Metal" Multiplier="0.5"/>
+  </PlanetModifier>
+  <PlanetModifier ID="MetalRich" Title="MetalRichTitle" Desc="MetalRichDesc">
+    <ResourceOutputModifier ID="Metal" Multiplier="2.0"/>
+  </PlanetModifier>
+</PlanetModifiers>
